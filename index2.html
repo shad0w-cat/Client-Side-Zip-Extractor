@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Read a zip file (demo zip.js)</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../default.css">
+    <link rel="stylesheet" href="demo.css">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro|Muli|Droid+Sans+Mono|Istok+Web" rel="stylesheet"
+        type="text/css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>
+            <a href="../">zip.js</a> <span class="small"></span>
+        </h1>
+
+        <div class="description">
+            A JavaScript library to zip and unzip files
+            <hr>
+        </div>
+
+        <h2>Read a zip file (demo)</h2>
+
+        <ol id="demo-container">
+            <li>
+                <label>
+                    <span class="form-label">choose a zip file</span>
+                    <input type="file" id="file-input" accept="application/zip">
+                </label>
+            </li>
+            <li>
+                <label>
+                    <span class="form-label">set the password</span>
+                    <input type="password" id="password-input" value="" disabled>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <span class="form-label">download uncompressed files</span>
+                    <ul id="file-list" class="empty">
+                    </ul>
+                </label>
+            </li>
+        </ol>
+
+    </div>
+    <script type="text/javascript" src="/assets/js/zip.js/zip.min.js"></script>
+    <script type="text/javascript" src="/assets/js/read_file.js"></script>
+</body>
+
+</html>
